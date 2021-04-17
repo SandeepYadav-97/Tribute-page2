@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#main {
+    background:#f4f4f4;
+    width:100vw;
+    height:auto;
+    text-align: center;
+    padding:3rem 0.6rem;
+    margin:1.5rem 0.5rem;
+    border-radius: 8px;
+}
+#main >h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#main #title #img-div{
+    background: #fff;
+    align-items:center;
+    padding:0.6rem;
+    margin-bottom: 3rem;
+}
+#main #title #image{
+    display:block;
+    max-width:100%;
+    margin:auto;
+    margin-bottom: 2rem;
+}
+small p{
+    padding:1rem 0;
+}
+#main #tribute-info{
+    padding: 0 3rem;
+}
+#main #tribute-info h2{
+    text-align: center;
+    margin-bottom:2rem;
+}
+#main #tribute-info ul{
+    padding: 0 4rem;
+    text-align: left;
+}
+#main #tribute-info ul li{
+    margin: 1rem 0;
+}
+#main #tribute-info ul li h3,
+#main #tribute-info ul li p{
+    display:inline;
+}
+
+#main #tribute-info a{
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+}
+@media(max-width:768px){
+  body{
+    width:100%;
+  }
+    #main {
+        background:#f4f4f4;
+        width:100vw;
+        height:auto;
+        text-align: center;
+        padding:3rem 0.6rem;
+    }
+  #main #title #image{
+    max-width:100%;
+  }
+}
+
+
